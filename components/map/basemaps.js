@@ -4,7 +4,7 @@ import defaultImage from './images/default.png';
 import darkImage from './images/dark.png';
 import landsatImage from './images/landsat.png';
 import satelliteImage from './images/satellite.png';
-
+// excese
 export default {
   default: {
     label: 'default',
