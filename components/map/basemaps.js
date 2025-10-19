@@ -15,7 +15,7 @@ export default {
     hasSettings: false,
     basemapGroup: 'basemap-light',
     labelsGroup: 'labels-light',
-    mapStyle: 'mapbox://styles/resourcewatch/ckgrx1ak30npt19o10xxkeqli',
+    mapStyle: 'mapbox://styles/simpleshell/cmgurz0tp003101sadpy747b6',
   },
   dark: {
     label: 'dark matter',
@@ -26,7 +26,7 @@ export default {
     hasSettings: false,
     basemapGroup: 'basemap-dark',
     labelsGroup: 'labels-dark',
-    mapStyle: 'mapbox://styles/resourcewatch/ckgrx1ak30npt19o10xxkeqli',
+    mapStyle: 'mapbox://styles/simpleshell/cmgurz0tp003101sadpy747b6',
   },
   satellite: {
     label: 'Google satellite imagery',
@@ -40,7 +40,7 @@ export default {
     image: satelliteImage,
     basemapGroup: 'basemap-satellite',
     labelsGroup: 'labels-dark',
-    mapStyle: 'mapbox://styles/resourcewatch/ckgrx1ak30npt19o10xxkeqli',
+    mapStyle: 'mapbox://styles/simpleshell/cmgurz0tp003101sadpy747b6',
     url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
   },
   landsat: {
@@ -54,7 +54,7 @@ export default {
     image: landsatImage,
     basemapGroup: 'basemap-landsat',
     labelsGroup: 'labels-dark',
-    mapStyle: 'mapbox://styles/resourcewatch/ckgrx1ak30npt19o10xxkeqli',
+    mapStyle: 'mapbox://styles/simpleshell/cmgurz0tp003101sadpy747b6',
     url: `${PROXIES.GFW_API}/v2/landsat-tiles/{year}/{z}/{x}/{y}`,
     availableYears: [2017, 2016, 2015, 2014, 2013],
     defaultYear: 2017,
@@ -71,6 +71,6 @@ export default {
     infoModal: 'recent_satellite_imagery',
     basemapGroup: 'basemap-light',
     labelsGroup: 'labels-light',
-    mapStyle: 'mapbox://styles/resourcewatch/ckgrx1ak30npt19o10xxkeqli',
+    mapStyle: 'mapbox://styles/simpleshell/cmgurz0tp003101sadpy747b6',
   },
 };
